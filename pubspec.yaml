@@ -1,0 +1,94 @@
+name: weather_task
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #Icons
+  cupertino_icons:
+
+  #State Management
+  get:
+
+  #log events
+  logger:
+
+  #Responsive
+  flutter_screenutil:
+
+  #API Requests
+  dio:
+
+  #Dio Api Debugging
+  pretty_dio_logger:
+
+  #Key Value Store
+  shared_preferences:
+
+  #Cities
+  csc_picker:
+
+
+  #Loading Indicator
+  flutter_spinkit:
+
+  #Network Image
+  cached_network_image:
+
+  #Image Slider
+  carousel_slider:
+
+  #Shimmer Effect
+  shimmer:
+
+  #Data format
+  intl:
+
+  #Progress Indicator
+  step_progress_indicator:
+
+  #Animation
+  flutter_animate:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/.
+    - assets/fonts/.
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 700
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/Cairo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 900
