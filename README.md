@@ -1,4 +1,4 @@
-![App Icon](assets/images/logo.png)
+<img src="assets/images/logo.png" alt="App Icon" width="100" height="100">
 
 
 # Weather Task
@@ -8,6 +8,14 @@ A Flutter application for displaying weather information.
 ## Description
 
 Weather Task is a mobile app built with Flutter that allows users to view weather information for different locations. Users can search for cities, view current weather conditions, and see forecasts for the upcoming days.
+
+## ScreenShots
+
+<p float="left">
+  <img src="assets/images/screen_one.jpg" width="400" />
+  <img src="assets/images/screen_two.jpg" width="400" />
+</p>
+
 
 ## Dependencies
 -  cupertino_icons
@@ -47,7 +55,3 @@ Weather Task is a mobile app built with Flutter that allows users to view weathe
 
  ```bash
    flutter run
-
-
-
-
